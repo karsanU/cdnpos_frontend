@@ -1,0 +1,88 @@
+.left-navbar {
+  width: 300px;
+  min-height: 720px;
+  min-width: 200px;
+  background-color: #2959ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: visible;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.top-navbar__search {
+  margin-right: 25px;
+}
+
+.left-navbar__profile {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 30px auto 15px auto;
+}
+
+.left-navbar__username {
+  color: #fefdff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.left-navbar__title {
+  color: #268ed0;
+  font-size: 14px;
+}
+
+.left-navbar__update-profile {
+  color: #fefdff;
+  font-weight: 350;
+  font-size: 12px;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7.5px 15px;
+  border: solid #268ed0 1.5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.left-navbar__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-navbar__button {
+  padding: 15px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.left-navbar__button:hover {
+  background-color: #1d4ba0;
+}
+
+.left-navbar__button-active {
+  background-color: #1d4ba0;
+  border-left: solid #268ed0 2.5px;
+}
+
+.left-navbar__button-text {
+  font-size: 12px;
+  padding: 5px;
+  color: #8dabdf;
+  font-weight: 500;
+}
+
+.left-navbar__button-text-active {
+  color: #fbf7f0;
+}
